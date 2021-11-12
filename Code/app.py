@@ -18,8 +18,8 @@ import gc
 # In[4]:
 
 
-merge_dataset = pd.read_csv("/Users/muntaha/Documents/Project4_v2/Game_Recommnedation_system/Data/merged_description.csv", index_col= 0)
-game_images = pd.read_csv("/Users/muntaha/Documents/Project4_v2/new_game_data/steam_media_data.csv")
+merge_dataset = pd.read_csv(r"C:\Users\elaaf\Desktop\SDS\project_4_data\merged_description.csv", index_col= 0)
+game_images = pd.read_csv(r"C:\Users\elaaf\Desktop\SDS\project_4_data\steam_media_data.csv")
 
 
 # In[5]:
@@ -617,7 +617,7 @@ def sort_game_type_based(list_game_type):
 
 @st.cache(allow_output_mutation = True)
 def read_cosine_similarity_model():
-    f = open("/Users/muntaha/Documents/Project4_v2/Game_Recommnedation_system/Code/cosine_similarity_model.pkl", 'rb')
+    f = open(r"C:\Users\elaaf\Desktop\SDS\project_4_data\cosine_similarity_model (1).pkl", 'rb')
     gc.disable()
     similarities = cPickle.load(f)
     gc.enable()
