@@ -9,9 +9,8 @@ Build a simple recommendation system for video games using game descriptions.
 #### Full data
 It can be accessed from here: [Full data](https://www.kaggle.com/nikdavis/steam-store-games)
 
-### Model Scores:
-
-### Recommendations:
+### Presentation
+[https://view.genial.ly/618437acbd48390fca22a25b/video-presentation-pixel-universe](Link)
 
 
 
